@@ -26,8 +26,7 @@ class _StoryPageState extends State<StoryPage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('background.png'),
-          ),
+              image: AssetImage('images/background.png'), fit: BoxFit.fill),
         ),
         padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 15.0),
         constraints: BoxConstraints.expand(),
